@@ -2,9 +2,9 @@
   "name": "resource-router-middleware",
   "version": "0.7.0",
   "description": "Express REST resources as middleware",
-  "main": "resource-router-middleware.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "homepage": "https://github.com/developit/resource-router-middleware",
   "peerDependencies": {
     "express": "^4.12.2"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "supertest": "^3.3.0"
   }
 }
